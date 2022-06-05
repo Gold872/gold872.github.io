@@ -96,7 +96,7 @@ var Typer = {
   }
   
   Typer.speed = 3;
-  Typer.file = 'Gold872.txt';
+  Typer.file = 'gold872.txt';
   Typer.init();
   
   var timer = setInterval('t();', 30);
