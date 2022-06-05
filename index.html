@@ -1,364 +1,190 @@
-<!DOCTYPE HTML>
+
 <!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Gold872's Templated Website</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-
-		<!-- Wrapper -->
-			<div id="wrapper">
-
-				<!-- Header -->
-					<header id="header">
-						<div class="logo">
-							<span class="icon solid fa-terminal"></span>
-						</div>
-						<div class="content">
-							<div class="inner">
-								<h1>Gold87</h1>
-								<p>A nerd that knows about 2 languages <i>(kinda)</i> and made this website because he was bored.</p>
-							</div>
-						</div>
-						<nav>
-							<ul>
-								<li><a href="#story">My Story</a></li>
-								<li><a href="#projects">Projects</a></li>
-								<li><a href="#about">About</a></li>
-								<!-- <li><a href="#contact">Contact</a></li>
-								<li><a href="#elements">Elements</a></li> -->
-							</ul>
-						</nav>
-					</header>
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- Story -->
-							<article id="story">
-								<h2 class="major">My Very Boring Story</h2>
-								<!-- <span class="image main"><img src="images/pic01.jpg" alt="" /></span> -->
-								<p>Growing up I've always had a big interest in how computers work. I've never considered learning how to program them until December 2020.</p>
-								<p>Every since I first written "Hello World!" in Java, I've gained much knowledge and experience in Java and C++. Since then I've spent a lot of time recreating popular games such as Mario and Pacman, and I've also joined a programming team for the FIRST Robotics Competition.</p>
-								<p>I then went on to make my own website using some template I found since I know absolutely nothing about web development or how to use css and nodejs or whatever that stuff is.</p>
-							</article>
-
-						<!-- Projects -->
-							<article id="projects">
-								<h2 class="major">Projects</h2>
-								<p>I have made many programs/games that I am proud of, these are some of the things I've made</p>
-								<p><i>NOTE: Only 1 project is listed since I was too lazy to screenshot anything else</i></p>
-								<h3>Super Mario Bros</h3>
-								<p>Recreated using the C++ SDL2 Library</p>
-								<img src="images/super-mario.png" style="width:500px;height:auto;border-radius:8px" alt="" />
-							</article>
-
-						<!-- About -->
-							<article id="about">
-								<h2 class="major">About</h2>
-								<!-- <span class="image main"><img src="images/pic03.jpg" alt="" /></span> -->
-								<p>I make programs.</p>
-							</article>
-
-						<!-- Contact -->
-							<article id="contact">
-								<h2 class="major">Contact</h2>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="4"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Reset" /></li>
-									</ul>
-								</form>
-								<ul class="icons">
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</article>
-
-						<!-- Elements -->
-							<article id="elements">
-								<h2 class="major">Elements</h2>
-
-								<section>
-									<h3 class="major">Text</h3>
-									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-									<hr />
-									<h2>Heading Level 2</h2>
-									<h3>Heading Level 3</h3>
-									<h4>Heading Level 4</h4>
-									<h5>Heading Level 5</h5>
-									<h6>Heading Level 6</h6>
-									<hr />
-									<h4>Blockquote</h4>
-									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-									<h4>Preformatted</h4>
-									<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
+Copyright (c) 2011 Sam Phippen <samphippen@googlemail.com>
+ 
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+ 
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+--> 
+<html> 
+<head> 
+<title>Jeff Weisbein</title> 
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> 
+<style type="text/css"> 
+	body {
+		background-color: #000
+	}
+	#console {
+		font-family: courier, monospace;
+		color: #fff;
+		width:750px;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:100px;
+		font-size:14px;
+	}
+	a {
+		color: #0bc;
+		text-decoration: none;
+	}
+	#a {
+		color: #0f0;
+	}
+	#c {
+		color: #0bc;
+	}
+	#b {
+		color: #ff0096;
+	}
+</style> 
+</head> 
+<body> 
+<script type="text/javascript"> 
+	var Typer={
+	text: null,
+	accessCountimer:null,
+	index:0, // current cursor position
+	speed:2, // speed of the Typer
+	file:"", //file, must be setted
+	accessCount:0, //times alt is pressed for Access Granted
+	deniedCount:0, //times caps is pressed for Access Denied
+	init: function(){// inizialize Hacker Typer
+		accessCountimer=setInterval(function(){Typer.updLstChr();},500); // inizialize timer for blinking cursor
+		$.get(Typer.file,function(data){// get the text file
+			Typer.text=data;// save the textfile in Typer.text
+			Typer.text = Typer.text.slice(0, Typer.text.length-1);
+		});
+	},
+ 
+	content:function(){
+		return $("#console").html();// get console content
+	},
+ 
+	write:function(str){// append to console content
+		$("#console").append(str);
+		return false;
+	},
+ 
+	makeAccess:function(){//create Access Granted popUp      FIXME: popup is on top of the page and doesn't show is the page is scrolled
+		Typer.hidepop(); // hide all popups
+		Typer.accessCount=0; //reset count
+		var ddiv=$("<div id='gran'>").html(""); // create new blank div and id "gran"
+		ddiv.addClass("accessGranted"); // add class to the div
+		ddiv.html("<h1>ACCESS GRANTED</h1>"); // set content of div
+		$(document.body).prepend(ddiv); // prepend div to body
+		return false;
+	},
+	makeDenied:function(){//create Access Denied popUp      FIXME: popup is on top of the page and doesn't show is the page is scrolled
+		Typer.hidepop(); // hide all popups
+		Typer.deniedCount=0; //reset count
+		var ddiv=$("<div id='deni'>").html(""); // create new blank div and id "deni"
+		ddiv.addClass("accessDenied");// add class to the div
+		ddiv.html("<h1>ACCESS DENIED</h1>");// set content of div
+		$(document.body).prepend(ddiv);// prepend div to body
+		return false;
+	},
+ 
+	hidepop:function(){// remove all existing popups
+		$("#deni").remove();
+		$("#gran").remove();
+	},
+ 
+	addText:function(key){//Main function to add the code
+		if(key.keyCode==18){// key 18 = alt key
+			Typer.accessCount++; //increase counter 
+			if(Typer.accessCount>=3){// if it's presed 3 times
+				Typer.makeAccess(); // make access popup
+			}
+		}else if(key.keyCode==20){// key 20 = caps lock
+			Typer.deniedCount++; // increase counter
+			if(Typer.deniedCount>=3){ // if it's pressed 3 times
+				Typer.makeDenied(); // make denied popup
+			}
+		}else if(key.keyCode==27){ // key 27 = esc key
+			Typer.hidepop(); // hide all popups
+		}else if(Typer.text){ // otherway if text is loaded
+			var cont=Typer.content(); // get the console content
+			if(cont.substring(cont.length-1,cont.length)=="|") // if the last char is the blinking cursor
+				$("#console").html($("#console").html().substring(0,cont.length-1)); // remove it before adding the text
+			if(key.keyCode!=8){ // if key is not backspace
+				Typer.index+=Typer.speed;	// add to the index the speed
+			}else{
+				if(Typer.index>0) // else if index is not less than 0 
+					Typer.index-=Typer.speed;//	remove speed for deleting text
+			}
+			var text=Typer.text.substring(0,Typer.index)// parse the text for stripping html enities
+			var rtn= new RegExp("\n", "g"); // newline regex
+	
+			$("#console").html(text.replace(rtn,"<br/>"));// replace newline chars with br, tabs with 4 space and blanks with an html blank
+			window.scrollBy(0,50); // scroll to make sure bottom is always visible
+		}
+		if ( key.preventDefault && key.keyCode != 122 ) { // prevent F11(fullscreen) from being blocked
+			key.preventDefault()
+		};  
+		if(key.keyCode != 122){ // otherway prevent keys default behavior
+			key.returnValue = false;
+		}
+	},
+ 
+	updLstChr:function(){ // blinking cursor
+		var cont=this.content(); // get console 
+		if(cont.substring(cont.length-1,cont.length)=="|") // if last char is the cursor
+			$("#console").html($("#console").html().substring(0,cont.length-1)); // remove it
+		else
+			this.write("|"); // else write it
+	}
 }
+ 
+function replaceUrls(text) {
+	var http = text.indexOf("http://");
+	var space = text.indexOf(".me ", http);
+	if (space != -1) { 
+		var url = text.slice(http, space-1);
+		return text.replace(url, "<a href=\""  + url + "\">" + url + "</a>");
+	} else {
+	return text
+}
+}
+Typer.speed=3;
+Typer.file="gold872.txt";
+Typer.init();
+ 
+var timer = setInterval("t();", 30);
+function t() {
+	Typer.addText({"keyCode": 123748});
+	if (Typer.index > Typer.text.length) {
+		clearInterval(timer);
+	}
+}
+ 
+</script> 
+<div id="console"></div> 
+<script type="text/javascript">
 
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-								</section>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-610661-7']);
+  _gaq.push(['_trackPageview']);
 
-								<section>
-									<h3 class="major">Lists</h3>
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
 
-									<h4>Unordered</h4>
-									<ul>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
-
-									<h4>Alternate</h4>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
-
-									<h4>Ordered</h4>
-									<ol>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis viverra.</li>
-										<li>Felis enim feugiat.</li>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis lorem.</li>
-										<li>Felis enim et feugiat.</li>
-									</ol>
-									<h4>Icons</h4>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-									</ul>
-
-									<h4>Actions</h4>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</section>
-
-								<section>
-									<h3 class="major">Table</h3>
-									<h4>Default</h4>
-									<div class="table-wrapper">
-										<table>
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-
-									<h4>Alternate</h4>
-									<div class="table-wrapper">
-										<table class="alt">
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-								</section>
-
-								<section>
-									<h3 class="major">Buttons</h3>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Primary</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button">Default</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-									</ul>
-									<ul class="actions">
-										<li><span class="button primary disabled">Disabled</span></li>
-										<li><span class="button disabled">Disabled</span></li>
-									</ul>
-								</section>
-
-								<section>
-									<h3 class="major">Form</h3>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="demo-name">Name</label>
-												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
-											</div>
-											<div class="field half">
-												<label for="demo-email">Email</label>
-												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
-											</div>
-											<div class="field">
-												<label for="demo-category">Category</label>
-												<select name="demo-category" id="demo-category">
-													<option value="">-</option>
-													<option value="1">Manufacturing</option>
-													<option value="1">Shipping</option>
-													<option value="1">Administration</option>
-													<option value="1">Human Resources</option>
-												</select>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-												<label for="demo-priority-low">Low</label>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-high" name="demo-priority">
-												<label for="demo-priority-high">High</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-copy" name="demo-copy">
-												<label for="demo-copy">Email me a copy</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-human" name="demo-human" checked>
-												<label for="demo-human">Not a robot</label>
-											</div>
-											<div class="field">
-												<label for="demo-message">Message</label>
-												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</form>
-								</section>
-
-							</article>
-
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-					</footer>
-
-			</div>
-
-		<!-- BG -->
-			<div id="bg"></div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
-</html>
+</script>
+</body> 
+</html> 
