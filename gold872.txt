@@ -1,11 +1,11 @@
-<span id="a">local@gold872</span>:<span id="b">~</span><span id="c">$</span> cat gold872.txt<br/><br/>
-Hi, I'm Gold87.
-<h1>
-<b>About Me</b>
-</h1>
-<p>
-I have about 1.5 years of experience in Java and C++
-</p><br/>
-<p>
-I got bored one day so I decided to make my own website.
-</p>
+<span id="a">local@gold87</span>:<span id="b">~</span><span id="c">$</span> cd Gold87/<!-- kjsdfhkjdhsfkjdshfkj -->About_Me
+<span id="a">local@gold87</span>:<span id="b">~</span><span id="c">$</span> cat <!-- kjsdfhkjdhsfkjdshfkj -->Gold872.txt<br/><br/>
+<!-- laglaglaglaglaglaglaglag -->
+Hey There!<!-- laglaglaglaglaglaglaglaglaglaglaglag -->
+<p>I got bored and decided to make a website!</p><!-- laglaglaglaglaglaglaglaglaglaglaglag -->
+<p>I have about 1.50 (3 significant figures babyyyy) <!-- laglaglaglaglaglaglaglag -->years of experience in Java and C++.</p> <!-- laglaglaglaglaglaglaglaglaglaglaglaglaglaglag -->
+<p>Most of the programs I make are recreations of famous games, such games include <a href="https://github.com/Gold872/Super-Mario-Bros">Super Mario Bros</a>, and Pacman.</p><!-- kjdhjhgdgldjhgdwtoiewotwotjdfkjdfffsf -->
+<p>I am also part of a programming team for the FIRST Robotics Competition. <!-- laglaglaglaglaglaglaglaglaglaglaglag -->In shorter words, I code robot, <!-- smallllllll delayyyy -->robot go brrrrrr.</p>
+<!-- laglaglaglaglaglaglaglaglaglaglaglag -->
+<p>If you want to see some of my projects: <a href="https://github.com/Gold872">Github</a><!-- laglaglaglaglaglaglaglaglaglaglaglaglaglag -->
+If you don't like this console app that I spent 30 minutes making, then here is a <a href="gui">Simpler GUI Website</a></p>
