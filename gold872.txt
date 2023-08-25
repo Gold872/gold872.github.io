@@ -2,10 +2,10 @@
 <span id="a">local@gold87</span>:<span id="b">~</span><span id="c">$</span> cat <!-- kjsdfhkjdhsfkjdshfkj -->Gold872.txt<br/><br/>
 <!-- laglaglaglaglaglaglaglag -->
 Hey There!<!-- laglaglaglaglaglaglaglaglaglaglaglag -->
-<p>I got bored and decided to make a website!</p><!-- laglaglaglaglaglaglaglaglaglaglaglag -->
-<p>I have about 1.50 (3 significant figures babyyyy) <!-- laglaglaglaglaglaglaglag -->years of experience in Java and C++.</p> <!-- laglaglaglaglaglaglaglaglaglaglaglaglaglaglag -->
+<p>I'm Gold87, a Computer Science student!</p><!-- laglaglaglaglaglaglaglaglaglaglaglag -->
+<p>I have been programming since December 2020. <!-- laglaglaglaglaglaglaglag --> My main languages are Java, C++, and Dart (for Flutter).</p> <!-- laglaglaglaglaglaglaglaglaglaglaglaglaglaglag -->
 <p>Most of the programs I make are recreations of famous games, such games include <a href="https://github.com/Gold872/Super-Mario-Bros">Super Mario Bros</a>, and Pacman.</p><!-- kjdhjhgdgldjhgdwtoiewotwotjdfkjdfffsf -->
-<p>I am also part of a programming team for the FIRST Robotics Competition. <!-- laglaglaglaglaglaglaglaglaglaglaglag -->In shorter words, I code robot, <!-- smallllllll delayyyy -->robot go brrrrrr.</p>
+<p>I am also part of a programming team for the FIRST Robotics Competition. I have also made a custom dashboard in Flutter to connect to Network Tables and display info from our robot during matches.</p>
 <!-- laglaglaglaglaglaglaglaglaglaglaglag -->
 <p>If you want to see some of my projects: <a href="https://github.com/Gold872">Github</a><!-- laglaglaglaglaglaglaglaglaglaglaglaglaglag -->
-If you don't like this console app that I spent 30 minutes making, then here is a <a href="gui">Simpler GUI Website</a></p>
+If you don't like this console app, here is a <a href="gui">GUI Website</a></p>
